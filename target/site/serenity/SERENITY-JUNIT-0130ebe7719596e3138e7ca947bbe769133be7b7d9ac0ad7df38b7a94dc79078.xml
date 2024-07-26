@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="2" failures="0" name="Casos de prueba tecnica para ZoeFin" skipped="0" tests="2" time="170.54" timestamp="2024-07-25 08:28:41"><testcase name="Creacion de Miembro en un HouseHold Existente"><error message="Expected condition failed: waiting for presence of element located by: By.xpath: //button[@class='styles_memberInfo__button__WzDCo styles-module_button__XmRSx styles-module_button__blue__su2bF styles-module_button__modMedium__uLakc styles-module_button__blue_primary__9PN9a styles-module_button__modReverse__QbwGK'] (tried for 2 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for presence of element located by: By.xpath: //button[@class='styles_memberInfo__button__WzDCo styles-module_button__XmRSx styles-module_button__blue__su2bF styles-module_button__modMedium__uLakc styles-module_button__blue_primary__9PN9a styles-module_button__modReverse__QbwGK'] (tried for 2 second(s) with 500 milliseconds interval)</error><system-err>Expected condition failed: waiting for presence of element located by: By.xpath: //button[@class='styles_memberInfo__button__WzDCo styles-module_button__XmRSx styles-module_button__blue__su2bF styles-module_button__modMedium__uLakc styles-module_button__blue_primary__9PN9a styles-module_button__modReverse__QbwGK'] (tried for 2 second(s) with 500 milliseconds interval)&#13;
+pt.utils.AccionesObjetos.obtenerElementos(AccionesObjetos.java:76)&#13;
+pt.utils.AccionesObjetos.clickElementoWeb(AccionesObjetos.java:90)&#13;
+pt.pruebaTecnica.PruebaTecnicaPageObject.seleccionarOpcionAddNewClientYSeguirCaminoExistingHouseHold(PruebaTecnicaPageObject.java:84)&#13;
+pt.pruebaTecnica.PruebaTecnicaSteps.seleccionarOpcionAddNewClientYSeguirCaminoExistingHouseHold(PruebaTecnicaSteps.java:22)&#13;
+pt.pruebaTecnica.PruebaTecnicaDefinitions.seleccionarOpcionAddNewClientYSeguirCaminoExistingHouseHold(PruebaTecnicaDefinitions.java:33)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:757)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+</system-err></testcase><testcase name="Edicion de Miembro en un HouseHold Existente"><error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=127.0.6533.73)&#10;Build info: version: '4.21.0', revision: '79ed462ef4'&#10;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [a288ed487b3838ee958ea5ce12c19abd, maximizeCurrentWindow {}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\sergo\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61134}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61134/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a288ed487b3838ee958ea5ce12c19abd" type="org.openqa.selenium.NoSuchWindowException">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.73)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a288ed487b3838ee958ea5ce12c19abd, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\sergo\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61134}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61134/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a288ed487b3838ee958ea5ce12c19abd</error><system-err>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=127.0.6533.73)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a288ed487b3838ee958ea5ce12c19abd, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\sergo\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61134}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61134/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a288ed487b3838ee958ea5ce12c19abd&#13;
+pt.utils.AccionesObjetos.abrirUrl(AccionesObjetos.java:54)&#13;
+pt.pruebaTecnica.PruebaTecnicaPageObject.ingresarAlPortalYRealizarAutenticacion(PruebaTecnicaPageObject.java:32)&#13;
+pt.pruebaTecnica.PruebaTecnicaSteps.ingresarAlPortalYRealizarAutenticacion(PruebaTecnicaSteps.java:17)&#13;
+pt.pruebaTecnica.PruebaTecnicaDefinitions.ingresarAlPortalYRealizarAutenticacion(PruebaTecnicaDefinitions.java:26)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:757)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+</system-err></testcase></testsuite>
